@@ -1,12 +1,19 @@
-import React from 'react'
-import { Footer } from '../../theme'
-import { Global } from './styles'
-import './fonts.css'
+import React from 'react';
+import * as PropTypes from 'prop-types';
+import Footer from '../../theme/Footer';
+import Global from './styles';
+import './fonts.css';
 
-export const Layout = ({ children }) => (
-	<>
-		<Global />
-		{children}
-		<Footer />
-	</>
-)
+const Layout = ({ children }) => (
+    <>
+        <Global />
+        {children}
+        <Footer />
+    </>
+);
+
+Layout.propTypes = {
+    children: PropTypes.instanceOf(Object).isRequired,
+};
+
+export default Layout;

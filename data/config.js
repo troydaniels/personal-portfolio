@@ -28,8 +28,8 @@ module.exports = {
 	},
 	contact: {
 		email: 'email',
-		phone: 'phone number',
+        phone: 'phone number',
 	},
 	foundingDate: '2019',
-	recaptcha_key: '',
-}
+	recaptchaKey: '',
+};

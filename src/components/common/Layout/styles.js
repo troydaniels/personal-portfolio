@@ -1,6 +1,6 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
-export const Global = createGlobalStyle`
+const Global = createGlobalStyle`
   html {
     font-family: 'Roboto', Helvetica, sans-serif;
     -ms-text-size-adjust: 100%;
@@ -623,4 +623,6 @@ export const Global = createGlobalStyle`
       }
     }
   }
-`
+`;
+
+export default Global;

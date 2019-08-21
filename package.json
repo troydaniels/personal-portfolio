@@ -1,16 +1,18 @@
 {
-  "name": "portfolio",
+  "name": "troysportfolio",
   "private": true,
-  "description": "A simple portfolio for developers",
-  "version": "0.1.1",
-  "author": "Smakosh <ismai23l@hotmail.com>",
   "dependencies": {
     "@iconify/icons-fa-brands": "^1.0.2",
     "@iconify/icons-logos": "^1.0.1",
     "@iconify/react": "^1.1.1",
     "babel-plugin-styled-components": "^1.10.0",
     "dotenv": "^6.2.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-standard": "^14.0.0",
+    "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "formik": "^1.4.1",
     "gatsby": "^2.8.6",
     "gatsby-image": "^2.0.20",
@@ -28,6 +30,8 @@
     "gatsby-source-filesystem": "^2.0.8",
     "gatsby-source-graphql": "^2.0.19",
     "gatsby-transformer-sharp": "^2.1.8",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
     "react-anchor-link-smooth-scroll": "^1.0.11",
@@ -37,35 +41,39 @@
     "styled-components": "^4.1.3",
     "yup": "^0.26.6"
   },
-  "keywords": [
-    "gatsby",
-    "portfolio",
-    "developer"
-  ],
   "license": "MIT",
   "scripts": {
+    "eslint-fix": "eslint src/ --fix --ext .jsx --ext .js",
     "build": "gatsby build",
     "start": "gatsby develop -o",
-    "format": "prettier --write \"src/**/*.js\"",
     "reset": "rm -rf .cache/ public/",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix --ext .jsx --ext .js"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "cross-env NODE_ENV=production lint-staged"
+    }
+  },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^6.1.0",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-prettier": "^3.3.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3",
-    "eslint-plugin-react-hooks": "^1.7.0",
-    "prettier": "^1.15.3"
+    "eslint-plugin-react-hooks": "^1.7.0"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:smakosh/gatsby-portfolio-dev.git"
+    "url": "git@github.com:troydaniels/personal-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/smakosh/gatsby-portfolio-dev/issues"
+    "url": "https://github.com/troydaniels/personal-portfolio/issues"
   }
 }
