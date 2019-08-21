@@ -1,0 +1,35 @@
+module.exports = {
+	defaultTitle: 'Troy Daniels',
+	logo: '',
+	author: 'Troy Daniels',
+	url: '',
+	legalName: 'Troy Daniels',
+	defaultDescription: 'I’m Troy and I’m a fullstack engineer.',
+	socialLinks: {
+		twitter: '',
+		github: '',
+		linkedin: '',
+		instagram: '',
+		youtube: '',
+		google: '',
+	},
+	googleAnalyticsID: '',
+	themeColor: '#6b63ff',
+	backgroundColor: '#6b63ff',
+	social: {
+		facebook: '',
+		twitter: '',
+	},
+	address: {
+		city: 'City',
+		region: 'Region',
+		country: 'Country',
+		zipCode: 'ZipCode',
+	},
+	contact: {
+		email: 'email',
+		phone: 'phone number',
+	},
+	foundingDate: '2019',
+	recaptcha_key: '',
+}
