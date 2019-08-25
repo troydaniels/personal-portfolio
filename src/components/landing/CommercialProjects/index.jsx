@@ -34,9 +34,6 @@ const CommercialProjects = () => {
                                         videoId={project.videoId}
                                         opts={{
                                             width: '100%',
-                                            playerVars: {
-                                                origin: window.location.origin,
-                                            },
                                         }}
                                     />
                                 )}
