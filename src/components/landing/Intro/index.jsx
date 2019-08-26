@@ -15,7 +15,7 @@ const Intro = () => (
                 <h1>Hi!</h1>
                 <h4>{data.defaultDescription}</h4>
                 <Button as={AnchorLink} href="#contact">
-                    Hire me
+                    Contact Me
                 </Button>
             </Details>
             <Thumbnail>
