@@ -4,9 +4,9 @@ import Helmet from 'react-helmet';
 import {
     url,
     defaultDescription,
-    social,
     defaultTitle,
     socialLinks,
+    socialImages,
     address,
     contact,
     legalName,
@@ -14,11 +14,7 @@ import {
     logo,
 } from '../../../../data/config';
 
-const SEO = ({
-    title = defaultTitle,
-    description = defaultDescription,
-    location = '',
-}) => {
+const SEO = ({ title, description }) => {
     const structuredDataOrganization = `{ 
 		"@context": "http://schema.org",
 		"@type": "Organization",
@@ -45,8 +41,6 @@ const SEO = ({
 		},
 		"sameAs": [
 			"${socialLinks.twitter}",
-			"${socialLinks.google}",
-			"${socialLinks.youtube}",
 			"${socialLinks.linkedin}",
 			"${socialLinks.instagram}",
 			"${socialLinks.github}"
@@ -56,24 +50,22 @@ const SEO = ({
     return (
         <Helmet>
             <meta name="description" content={description} />
-            <meta name="image" content={null} />
+            <meta name="image" content={socialImages.website} />
 
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
-            <meta property="og:image" content={null} />
-            <meta property="fb:app_id" content={social.facebook} />
+            <meta property="og:image" content={socialImages.website} />
 
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:creator" content={socialLinks.twitter} />
-            <meta name="twitter:site" content={social.twitter} />
+            <meta name="twitter:site" content={socialLinks.twitter} />
             <meta name="twitter:title" content={title} />
             <meta name="twitter:description" content={description} />
-            <meta name="twitter:image:src" content={null} />
+            <meta name="twitter:image:src" content={socialImages.twitter} />
             <script type="application/ld+json">
                 {structuredDataOrganization}
             </script>
-            <link rel="publisher" href={socialLinks.google} />
             <title>{title}</title>
             <html lang="en" dir="ltr" />
         </Helmet>
@@ -81,9 +73,13 @@ const SEO = ({
 };
 
 SEO.propTypes = {
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    location: PropTypes.string.isRequired,
+    title: PropTypes.string,
+    description: PropTypes.string,
+};
+
+SEO.defaultProps = {
+    title: defaultTitle,
+    description: defaultDescription,
 };
 
 export default SEO;

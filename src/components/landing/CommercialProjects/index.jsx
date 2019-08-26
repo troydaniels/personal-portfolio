@@ -12,7 +12,7 @@ const CommercialProjects = () => {
             <Grid>
                 {projects.map(project => (
                     <Item
-                        key={project.id}
+                        key={project.name}
                         as="a"
                         href={project.url}
                         target="_blank"

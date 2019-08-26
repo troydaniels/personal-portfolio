@@ -12,7 +12,11 @@ const NavbarLinks = ({ desktop }) => (
 );
 
 NavbarLinks.propTypes = {
-    desktop: PropTypes.bool.isRequired,
+    desktop: PropTypes.bool,
+};
+
+NavbarLinks.defaultProps = {
+    desktop: false,
 };
 
 export default NavbarLinks;
