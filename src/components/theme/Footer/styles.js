@@ -39,6 +39,10 @@ export const Links = styled.div`
         &:last-child {
             margin: 0;
         }
+
+        &:last-child {
+            padding-left: 10px;
+        }
     }
 `;
 

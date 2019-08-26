@@ -21,7 +21,7 @@ module.exports = {
     backgroundColor: '#6b63ff',
     address: {
         city: 'Melbourne',
-        region: 'Region',
+        region: 'VIC',
         country: 'Australia',
         zipCode: '3121',
     },
