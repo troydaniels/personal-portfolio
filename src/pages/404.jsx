@@ -4,7 +4,7 @@ import SEO from '../components/common/SEO';
 
 export default () => (
     <Layout>
-        <SEO title="404: Not found" location="/404" />
+        <SEO title="404: Not found" />
         <h1>NOT FOUND</h1>
         <p>There&apso;s nothing here...</p>
     </Layout>
