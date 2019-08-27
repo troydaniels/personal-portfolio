@@ -8,7 +8,7 @@ const NavbarLinks = ({ desktop }) => (
     <Wrapper desktop={desktop}>
         <AnchorLink href="#about">About</AnchorLink>
         <AnchorLink href="#projects">Projects</AnchorLink>
-        <a href={Resume} target = "_blank">Resume</a>
+        <a href={Resume} target = "_blank">CV</a>
         <AnchorLink href="#contact">Contact</AnchorLink>
     </Wrapper>
 );
