@@ -12,25 +12,27 @@ const Footer = () => (
             <Details>
                 <h2>Troy Daniels</h2>
                 <span>
-                    © All rights are reserved {new Date().getFullYear()} | Made
-                    with{' '}
-                    <a
-                        href="https://reactjs.org/"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label="React"
-                    >
-                        <Icon icon={reactIcon} />
-                    </a>{' '}
-                    and{' '}
-                    <a
-                        href="https://www.gatsbyjs.org"
-                        rel="noopener noreferrer"
-                        target="_blank"
-                        aria-label="Gatsby"
-                    >
-                        <Icon icon={gatsbyIcon} />
-                    </a>
+                    <p>© All rights reserved {new Date().getFullYear()} </p>
+                    <p>
+                        Made with{' '}
+                        <a
+                            href="https://reactjs.org/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            aria-label="React"
+                        >
+                            <Icon icon={reactIcon} />
+                        </a>{' '}
+                        and{' '}
+                        <a
+                            href="https://www.gatsbyjs.org"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                            aria-label="Gatsby"
+                        >
+                            <Icon icon={gatsbyIcon} />
+                        </a>
+                    </p>
                 </span>
             </Details>
             <Links>
@@ -40,9 +42,9 @@ const Footer = () => (
                         href={link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label={`follow me on ${icon}`}
+                        aria-label={`Follow me on ${name}`}
                     >
-                        <img width="24" src={icon} alt={name} />
+                        <img width="24" src={icon}/>
                     </a>
                 ))}
             </Links>

@@ -6,7 +6,7 @@ import Container from '../../common/Container';
 import Card from '../../common/Card';
 import { Wrapper, Grid, Item, Content, Stats } from './styles';
 
-const Projects = () => {
+const PersonalProjects = () => {
     const {
         github: {
             repositoryOwner: {
@@ -39,8 +39,8 @@ const Projects = () => {
         }
     `);
     return (
-        <Wrapper as={Container} id="projects">
-            <h2>Open Source Projects</h2>
+        <Wrapper as={Container}>
+            <h2>Personal Projects</h2>
             <Grid>
                 {edges.map(({ node }) => (
                     <Item
@@ -73,4 +73,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default PersonalProjects;

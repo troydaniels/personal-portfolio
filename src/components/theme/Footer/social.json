@@ -1,26 +1,14 @@
 [
   {
     "id": 0,
-    "name": "Telegram",
-    "link": "",
-    "icon": "/icons/telegram.svg"
-  },
-  {
-    "id": 1,
     "name": "Github",
-    "link": "",
+    "link": "http://github.com/troydaniels",
     "icon": "/icons/github.svg"
   },
   {
-    "id": 2,
-    "name": "StackOverflow",
-    "link": "",
-    "icon": "/icons/stackoverflow.svg"
-  },
-  {
-    "id": 3,
-    "name": "Twitter",
-    "link": "",
-    "icon": "/icons/twitter.svg"
+    "id": 1,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/troy-d-b75b82aa/",
+    "icon": "/icons/l-in.svg"
   }
 ]

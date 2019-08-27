@@ -88,7 +88,7 @@ const ContactForm = ({
 );
 
 ContactForm.propTypes = {
-    setFieldValue: PropTypes.bool.isRequired,
+    setFieldValue: PropTypes.func.isRequired,
     isSubmitting: PropTypes.bool.isRequired,
     values: PropTypes.instanceOf(Object).isRequired,
     errors: PropTypes.instanceOf(Object).isRequired,
