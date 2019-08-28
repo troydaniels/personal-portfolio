@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://gallant-roentgen-4604e6.netlify.com/* https://troydaniels.me/:splat 301!
