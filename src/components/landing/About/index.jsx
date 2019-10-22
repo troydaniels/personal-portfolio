@@ -12,14 +12,14 @@ const About = () => (
                 <p>
                     I currently work in Melbourne at{' '}
                     <a
-                        href="https://www.vonex.com.au"
+                        href="https://coreplus.com.au/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        aria-label="Vonex"
+                        aria-label="coreplus"
                     >
-                        Vonex
+                        coreplus
                     </a>
-                    , where I help to make some phones ring.<br/>I&apos;m passionate
+                    , as a software engineer.<br/>I&apos;m passionate
                     about learning, mentoring & problem solving, as well as delivering well written, considered and
                     extensible code.
                 </p>
