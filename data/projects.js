@@ -6,7 +6,7 @@ const projects = [
         name: 'coreplus',
         description: 'Online practice management system for allied health professionals',
         role: 'Software engineer',
-        technologies: ['React', 'Classic ASP', 'Microsoft SQL Server'],
+        technologies: ['React', 'Classic ASP', '.NET', 'Microsoft SQL Server'],
         mediaType: 'video',
         videoId: 'UQXYJwMbjt4',
     },
