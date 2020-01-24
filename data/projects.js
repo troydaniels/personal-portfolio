@@ -3,6 +3,14 @@ import kaldi from '../static/screenshots/kaldi.png';
 
 const projects = [
     {
+        name: 'coreplus',
+        description: 'Online practice management system for allied health professionals',
+        role: 'Software engineer',
+        technologies: ['React', 'Classic ASP', 'Microsoft SQL Server'],
+        mediaType: 'video',
+        videoId: 'UQXYJwMbjt4',
+    },
+    {
         name: 'Oper8tor',
         description: 'Cross platform messaging and calling social application',
         role: 'Lead front end engineer',
