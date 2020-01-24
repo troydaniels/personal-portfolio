@@ -16,7 +16,7 @@ module.exports = {
         twitter: 'https://twitter.com/troyd_/photo',
         github: 'https://avatars0.githubusercontent.com/u/8019607?s=460&v=4',
     },
-    googleAnalyticsID: '',
+    googleAnalyticsID: 'UA-156888990-1',
     themeColor: '#6b63ff',
     backgroundColor: '#6b63ff',
     address: {
