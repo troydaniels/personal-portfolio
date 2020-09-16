@@ -19,8 +19,10 @@ const About = () => (
                     >
                         coreplus
                     </a>
-                    , as a software engineer.<br/>I&apos;m passionate
-                    about learning, mentoring & problem solving, as well as delivering well written, considered and
+                    , as a software engineer.
+                    <br />
+                    I&apos;m passionate about learning, mentoring & problem
+                    solving, as well as delivering well written, considered and
                     extensible code.
                 </p>
                 <Button as={AnchorLink} href="#contact">

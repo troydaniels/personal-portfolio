@@ -10,14 +10,14 @@ const PersonalProjects = () => {
     const {
         github: {
             repositoryOwner: {
-                pinnedRepositories: { edges },
+                repositories: { edges },
             },
         },
     } = useStaticQuery(graphql`
         {
             github {
                 repositoryOwner(login: "troydaniels") {
-                    pinnedRepositories(
+                    repositories(
                         first: 8
                         orderBy: { field: STARGAZERS, direction: DESC }
                     ) {

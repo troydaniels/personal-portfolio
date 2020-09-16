@@ -44,7 +44,7 @@ const Footer = () => (
                         rel="noopener noreferrer"
                         aria-label={`Follow me on ${name}`}
                     >
-                        <img width="24" src={icon}/>
+                        <img width="24" src={icon} />
                     </a>
                 ))}
             </Links>
