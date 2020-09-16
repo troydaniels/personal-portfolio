@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-    background: transparent;
+    position: fixed;
+    height: 55px;
+    z-index: 99999;
+    background: linear-gradient(180deg, #efeeffdd, #efeeff);
     width: 100%;
 `;
 
