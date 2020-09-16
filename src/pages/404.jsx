@@ -7,7 +7,16 @@ export default () => (
     <Layout>
         <Header />
         <SEO title="404: Not found" />
-        <div style={{ 'text-align': 'center' }}>
+        <div
+            style={{
+                display: 'flex',
+                'flex-direction': 'column',
+                'justify-content': 'center',
+                'align-items': 'center',
+                position: 'relative',
+                top: '100px',
+            }}
+        >
             <h1>404 NOT FOUND</h1>
             <p>There's nothing here...</p>
         </div>
