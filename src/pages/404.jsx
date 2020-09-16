@@ -1,11 +1,10 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import Layout from '../components/common/Layout';
 import SEO from '../components/common/SEO';
-import Header from '../components/theme/Header';
 
 export default () => (
     <Layout>
-        <Header />
         <SEO title="404: Not found" />
         <div
             style={{
@@ -19,6 +18,7 @@ export default () => (
         >
             <h1>404 NOT FOUND</h1>
             <p>There's nothing here...</p>
+            <Link to="/">Click here to head home</Link>
         </div>
     </Layout>
 );
