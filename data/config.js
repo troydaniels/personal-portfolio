@@ -8,7 +8,8 @@ module.exports = {
     socialLinks: {
         twitter: 'https://twitter.com/troyd_',
         github: 'https://github.com/troydaniels',
-        linkedin: 'https://www.linkedin.com/in/troy-d-b75b82aa/',
+        linkedin:
+            'https://www.linkedin.com/in/troy-daniels-software-engineer-melbourne/',
         instagram: 'https://www.instagram.com/whiteboyeatsaus/',
     },
     socialImages: {
