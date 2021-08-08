@@ -12,14 +12,14 @@ const About = () => (
                 <p>
                     I currently work in Melbourne at{' '}
                     <a
-                        href="https://coreplus.com.au/"
+                        href="https://www.drawboard.com/"
                         rel="noopener noreferrer"
                         target="_blank"
-                        aria-label="coreplus"
+                        aria-label="Drawboard"
                     >
-                        coreplus
+                        Drawboard
                     </a>
-                    , as a software engineer.
+                    , as a software engineer - helping make the paperless office a reality.
                     <br />
                     I&apos;m passionate about learning, mentoring & problem
                     solving, as well as delivering well written, considered and

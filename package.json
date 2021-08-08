@@ -46,8 +46,7 @@
     "eslint-fix": "eslint src/ --fix --ext .jsx --ext .js",
     "build": "gatsby build",
     "start": "gatsby develop -o",
-    "reset": "rm -rf .cache/ public/",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
+    "reset": "rm -rf .cache/ public/"
   },
   "lint-staged": {
     "*.{js,jsx}": [

@@ -3,20 +3,31 @@ import kaldi from '../static/screenshots/kaldi.png';
 
 const projects = [
     {
+        name: 'Drawboard PDF & Projects',
+        description: 'Collaborative PDF annotation software',
+        role: 'Software engineer',
+        technologies: ['React', 'Ramda', 'Recompose'],
+        mediaType: 'video',
+        videoId: '_bhFpHzD9rQ',
+        url: 'https://www.drawboard.com/'
+    },
+    {
         name: 'coreplus',
         description: 'Online practice management system for allied health professionals',
         role: 'Software engineer',
         technologies: ['React', 'Classic ASP', '.NET', 'Microsoft SQL Server'],
         mediaType: 'video',
         videoId: 'UQXYJwMbjt4',
+        url: 'https://www.coreplus.com.au/'
     },
     {
         name: 'Oper8tor',
         description: 'Cross platform messaging and calling social application',
-        role: 'Lead front end engineer',
+        role: 'Software engineer',
         technologies: ['React Native', 'Go', 'MySQL', 'FreeSWITCH'],
         mediaType: 'video',
         videoId: 'Bkw34adPY94',
+        url: 'https://oper8tor.com/'
     },
     {
         name: 'Automatic Management Provisioning Tool (AMPT)',
