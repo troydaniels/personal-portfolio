@@ -1,5 +1,6 @@
 import React from 'react';
 import * as PropTypes from 'prop-types';
+
 import { Wrapper, Bar } from './styles';
 
 const Hamburger = ({ sidebar, toggle }) => (

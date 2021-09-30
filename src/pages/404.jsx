@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Layout from '../components/common/Layout';
+
 import SEO from '../components/common/SEO';
+import Layout from '../components/common/Layout';
 
 export default () => (
     <Layout>
