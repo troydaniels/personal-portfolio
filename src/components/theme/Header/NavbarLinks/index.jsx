@@ -3,7 +3,7 @@ import * as PropTypes from 'prop-types';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 import Wrapper from './styles';
-import Resume from 'static/documents/DANIELSTroy.pdf';
+import Resume from '../../../../../static/documents/DANIELSTroy.pdf';
 
 const NavbarLinks = ({ desktop }) => (
     <Wrapper desktop={desktop}>
