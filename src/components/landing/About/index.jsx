@@ -12,18 +12,27 @@ const About = () => (
                 <p>
                     I currently work in Melbourne at{' '}
                     <a
-                        href="https://www.drawboard.com/"
+                        href="https://www.atlassian.com/"
                         rel="noopener noreferrer"
                         target="_blank"
                         aria-label="Drawboard"
                     >
-                        Drawboard
+                        Atlassian
                     </a>
-                    , as a software engineer - helping make the paperless office a reality.
+                    , as a full stack software engineer on the Jira Advanced
+                    Roadmaps team.
                     <br />
                     I&apos;m passionate about learning, mentoring & problem
-                    solving, as well as delivering well written, considered and
-                    extensible code.
+                    solving.
+                    <br />
+                    <br />
+                    I&apos;ve come to realise that software development
+                    isn&apos;t really about writing code.
+                    <br />
+                    It&apos;s about effectively communicating complex and
+                    abstract ideas to others. To a machine, to customers, to
+                    your peers, to stakeholders, and (often hardest of all) your
+                    future self.
                 </p>
                 <Button as={AnchorLink} href="#contact">
                     Get In Touch

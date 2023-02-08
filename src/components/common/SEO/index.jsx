@@ -29,7 +29,6 @@ const SEO = ({ title, description }) => {
 		"contactPoint": [{
 			"@type": "ContactPoint",
 			"email": "${contact.email}",
-			"telephone": "${contact.phone}",
 			"contactType": "customer service"
 		}],
 		"address": {

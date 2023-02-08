@@ -24,11 +24,10 @@ module.exports = {
         city: 'Melbourne',
         region: 'VIC',
         country: 'Australia',
-        zipCode: '3121',
+        zipCode: '3000',
     },
     contact: {
         email: 'troyaadaniels@gmail.com',
-        phone: '0450679207',
     },
     foundingDate: '2019',
     recaptchaKey: '6Lf3KrQUAAAAAEHNBdQOvhs3jmX3dnznCoVmsivM',
